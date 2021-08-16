@@ -123,7 +123,7 @@ deleteButton.addEventListener('click', () =>{
 // -----------------------new Update-------v-1.1------------- 
 
 /*
----------- now you are able to click buttons using your keyboard -------------
+---------- now you are able to use the calculator by clickign your keyboard -------------
 */
 
 function clickButtonK(key) {
