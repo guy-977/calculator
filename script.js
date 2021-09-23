@@ -33,7 +33,7 @@ class Calculator {
         if (isNaN(prev) || isNaN(current)) return
         switch (this.operation){
             case '+': 
-            computation = +(prev + current).toFixed(1) 
+            computation = +(prev + current).toFixed(1) // I used toFixed() to fix some problems for example (0.1+0.2 =0.30000000000000004) so now it 0.3
             break
             case '-': 
             computation = prev - current 
